@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/calendar">
+
+    <fragment
+        android:id="@+id/calendar"
+        android:name="com.example.scheduler.View.Calendar"
+        android:label="日程"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/todo"
+        android:name="com.example.scheduler.View.Todo"
+        android:label="备忘录"
+        tools:layout="@layout/fragment_todo" />
+    <fragment
+        android:id="@+id/setting"
+        android:name="com.example.scheduler.View.SettingFragment"
+        android:label="设置"
+        tools:layout="@layout/setting_fragment" />
+</navigation>

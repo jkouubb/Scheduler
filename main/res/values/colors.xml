@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#7EAEF7</color>
+    <color name="t_bule">#9A2196F3</color>
+    <color name="t_pink">#9AE63F7F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#424242</color>
+    <color name="t_yellow">#9AF7D306</color>
+    <color name="t_green">#9A4CAF50</color>
+    <color name="textview_text">#000000</color>
+    <color name="textview_background">#9ADBDBDB</color>
+    <color name="tras">#00FFFFFF</color>
+    <color name="red">#80EB3030</color>
+    <color name="yellow">#F7D306</color>
+    <color name="pink">#EC8FA2</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#E40076</color>
+</resources>

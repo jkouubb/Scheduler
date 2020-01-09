@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Scheduler</string>
+    <string name="import_step1">步骤1：先在设置页面设置好自定义的时间段，如第一节课的时间段为8:00-9:00</string>
+    <string name="import_step2">步骤2：确认好所有时间段设置无误后，在导入页面上方的输入栏中输入http://+网址名称</string>
+    <string name="import_step3">步骤3：进入有日程信息的网页后，点击导入课表，日程导入成功后会有提醒</string>
+    <string name="support_school">北京理工大学</string>
+</resources>

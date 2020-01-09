@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/todo"
+        android:icon="@drawable/ic_list_white_24dp"
+        android:title="备忘录" />
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/ic_apps_white_24dp"
+        android:title="日程" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="设置" />
+</menu>

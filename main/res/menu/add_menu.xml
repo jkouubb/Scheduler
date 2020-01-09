@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_activity"
+        android:title="添加日程" />
+    <item
+        android:id="@+id/add_deadline"
+        android:title="添加DDL" />
+</menu>

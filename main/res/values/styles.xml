@@ -1,0 +1,101 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Darkula" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/yellow</item>
+        <item name="android:dialogTheme">@style/Darkula</item>
+        <item name="android:datePickerDialogTheme">@style/timer_Darkula</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textColorPrimary">@color/yellow</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/yellow</item>
+        <item name="android:colorForeground">@color/yellow</item>
+        <item name="android:textColorHint">@color/yellow</item>
+    </style>
+
+    <style name="trans" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/textview_background</item>
+        <item name="colorPrimaryDark">@color/textview_background</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:dialogTheme">@style/trans</item>
+        <item name="android:datePickerDialogTheme">@style/timer_trans</item>
+        <item name="android:colorBackground">@color/textview_background</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/black</item>
+        <item name="android:colorForeground">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+
+    <style name="blue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:dialogTheme">@color/blue</item>
+        <item name="android:datePickerDialogTheme">@style/timer_blue</item>
+        <item name="android:colorBackground">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/white</item>
+        <item name="android:colorForeground">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="pink" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/pink</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:dialogTheme">@color/pink</item>
+        <item name="android:datePickerDialogTheme">@style/timer_pink</item>
+        <item name="android:colorBackground">@color/pink</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/white</item>
+        <item name="android:colorForeground">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="timer_Darkula" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:colorAccent">@color/black</item>
+        <item name="android:textColorPrimary">@color/yellow</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/yellow</item>
+        <item name="android:colorForeground">@color/yellow</item>
+        <item name="android:textColorHint">@color/yellow</item>
+    </style>
+
+    <style name="timer_trans" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorBackground">@color/tras</item>
+        <item name="android:colorAccent">@color/tras</item>
+        <item name="android:textColorPrimary">@color/textview_text</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/textview_text</item>
+        <item name="android:colorForeground">@color/textview_text</item>
+        <item name="android:textColorHint">@color/textview_text</item>
+    </style>
+
+    <style name="timer_blue" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorBackground">@color/blue</item>
+        <item name="android:colorAccent">@color/blue</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/white</item>
+        <item name="android:colorForeground">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="timer_pink" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorBackground">@color/pink</item>
+        <item name="android:colorAccent">@color/pink</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/white</item>
+        <item name="android:colorForeground">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+</resources>

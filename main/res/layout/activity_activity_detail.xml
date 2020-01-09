@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:text="日程名称:"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="日程地点:"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView9"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="起止周次:"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView10"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="参与人员:"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView11"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="单或双周:"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView12"
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="起止时间:"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView13"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <EditText
+            android:id="@+id/activity_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:hint="未填写"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView9"
+            app:layout_constraintStart_toEndOf="@+id/textView9"
+            app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+        <EditText
+            android:id="@+id/activity_detail_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="未填写"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="@+id/activity_detail_name"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_name"
+            app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+        <EditText
+            android:id="@+id/activity_detail_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="未填写"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView12"
+            app:layout_constraintEnd_toEndOf="@+id/activity_detail_place"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_place"
+            app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+        <Button
+            android:id="@+id/activity_detail_start_week_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/tras"
+            android:text="Button"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView11"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_member"
+            app:layout_constraintTop_toTopOf="@+id/textView11" />
+
+        <Button
+            android:id="@+id/activity_detail_end_week_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/tras"
+            android:text="Button"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/activity_detail_start_week_btn"
+            app:layout_constraintEnd_toEndOf="@+id/activity_detail_member"
+            app:layout_constraintStart_toEndOf="@+id/activity_detail_start_week_btn"
+            app:layout_constraintTop_toTopOf="@+id/activity_detail_start_week_btn" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@+id/textView13"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_start_week_btn"
+            app:layout_constraintTop_toTopOf="@+id/textView13">
+
+            <RadioButton
+                android:id="@+id/activity_detail_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="单周"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/activity_detail_dual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="双周"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/activity_detail_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="正常"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/activity_detail_start_time_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/tras"
+            android:text="Button"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/activity_detail_end_time_btn"
+            app:layout_constraintStart_toStartOf="@+id/radioGroup2"
+            app:layout_constraintTop_toTopOf="@+id/activity_detail_end_time_btn" />
+
+        <Button
+            android:id="@+id/activity_detail_end_time_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/tras"
+            android:text="Button"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/activity_detail_weekday_btn"
+            app:layout_constraintStart_toEndOf="@+id/activity_detail_start_time_btn"
+            app:layout_constraintTop_toTopOf="@+id/activity_detail_weekday_btn"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/activity_detail_weekday_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/tras"
+            android:text="Button"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView14"
+            app:layout_constraintStart_toEndOf="@+id/activity_detail_end_time_btn"
+            app:layout_constraintTop_toTopOf="@+id/textView14" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <Button
+            android:id="@+id/activity_detail_update_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:background="@color/tras"
+            android:text="修改"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+        <Button
+            android:id="@+id/activity_detail_delete_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/tras"
+            android:text="删除"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_update_btn" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.8" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
